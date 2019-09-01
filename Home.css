@@ -69,7 +69,7 @@ hr {
 }
 .bottom{
 
- background-color: #160f30;;
+ background-color: #160f30;
 
 }
 .footer{
@@ -172,3 +172,8 @@ h4
 
 
 }
+.link {
+    color: white;
+    font-family: "Montserrat",Arial,Helvetica,sans-serif;
+}
+

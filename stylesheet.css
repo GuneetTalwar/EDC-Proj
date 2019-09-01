@@ -1,36 +1,9 @@
 body {
-  background-color: #eadca6;
+  background-color: navajowhite;
   margin: 0;
   padding: 0;
+  color:black;æ
 }
-.menu {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    height: 65px;
-    background-color: #000000;
-    font-family: cursive;
-
-}
-
-    .menu li {
-        float: left;
-        font-size: 25px;
-    }
-
-        .menu li a {
-            display: block;
-            color: white;
-            text-decoration: none;
-            text-align: center;
-            padding: 15px 16px;
-        }
-
-            .menu li a:hover {
-                background-color: #111;
-                color:sandybrown;
-            }
 
 .box {
   border-radius: 12px;
@@ -41,8 +14,8 @@ body {
 }
 
 form {
-  opacity: .75;
-  background-color: black;
+  
+  background-color: tomato;
   border-radius: 24px;
   padding: 25px;
 
@@ -52,8 +25,8 @@ form {
   border:none;
   border-radius: 12px;
 
-  background-color: black;
-  color: white;
+  background-color:none;
+  
   border: 2px solid #3499db;
   margin-bottom: 20px;
   padding: 10px;
@@ -72,8 +45,8 @@ label {
 
 input {
   border:none;
-  background-color: black;
-  color: white;
+  background-color: none;
+  color:black;
   border: 2px solid #3499db;
   border-radius: 12px;
   margin-bottom: 20px;
@@ -86,12 +59,14 @@ input {
 
 }
 
-
+.text {
+    color:black;
+}
 
 .submit {
   border-radius: 24px;
-  background: black;
-  color: white;
+  background: white;
+  color: Red;
   padding: 10px;
   width: 250px;
   height: 50px;
@@ -109,8 +84,8 @@ transition: 0.5s;
 
 .reset {
   border-radius: 24px;
-  background: black;
-  color: white;
+  background: white;
+  color: red;
   padding: 10px;
   width: 250px;
   height: 50px;
