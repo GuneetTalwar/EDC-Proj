@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script language="javascript">
+    function f() {
+      var a, b, c, d, e, f, g;
+      if (document.f1.s1.selectedIndex == 0) {
+        a = "Amritsar"
+      }
+      if (document.f1.s1.selectedIndex == 1) {
+        a = "Barnala"
+      }
+      if (document.f1.s1.selectedIndex == 2) {
+        a = "Bathinda"
+      }
+      if (document.f1.s1.selectedIndex == 3) {
+        a = "Faridkot"
+      }
+      if (document.f1.s1.selectedIndex == 4) {
+        a = "Fatehgarh"
+      }
+      if (document.f1.s1.selectedIndex == 5) {
+        a = "Ferozpur"
+      }
+      if (document.f1.s1.selectedIndex == 6) {
+        a = "Fazilka"
+      }
+      if (document.f1.s1.selectedIndex == 7) {
+        a = "Gurdaspur"
+      }
+      if (document.f1.s1.selectedIndex == 8) {
+        a = "Hoshiarpur"
+      }
+      if (document.f1.s1.selectedIndex == 9) {
+        a = "Jalandhar"
+      }
+      if (document.f1.s1.selectedIndex == 10) {
+        a = "Kapurthala"
+      }
+      if (document.f1.s1.selectedIndex == 11) {
+        a = "Ludhiana"
+      }
+      if (document.f1.s1.selectedIndex == 12) {
+        a = "Mansa"
+      }
+      if (document.f1.s1.selectedIndex == 13) {
+        a = "Moga"
+      }
+      if (document.f1.s1.selectedIndex == 14) {
+        a = "Shri Muktsar Sahib"
+      }
+      if (document.f1.s1.selectedIndex == 15) {
+        a = "Pathankot"
+      }
+      if (document.f1.s1.selectedIndex == 16) {
+        a = "Patiala"
+      }
+      if (document.f1.s1.selectedIndex == 17) {
+        a = "Rupnagar"
+      }
+      if (document.f1.s1.selectedIndex == 18) {
+        a = "Mohali"
+      }
+      if (document.f1.s1.selectedIndex == 19) {
+        a = "Sangrur"
+      }
+      if (document.f1.s1.selectedIndex == 20) {
+        a = "Nawanshahr"
+      }
+      if (document.f1.s1.selectedIndex == 21) {
+        a = "Tarn Taran"
+      }
+
+      b = document.f1.taentries.value;
+      c = document.f1.dignosed.value;
+      d = document.f1.rec.value;
+      e = document.f1.Death.value;
+      f = document.f1.ref.value;
+      g = document.f1.lama.value;
+
+    }
+  </script>
+</head>
+
+<body background="wood.jpg">
+  <ul class="menu">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Form.html"><font color="saddlebrown">Admin Login</font></a></li>
+    </ul>
+    <br><br>
+  <div class="box">
+
+
+
+
+    <form name="f1" method="post" action="<?php echo $_SERVER['database_table_input'];?>">
+      <table>
+
+        <tr>
+
+
+          <td>
+
+            <label for="">District: </label></td>
+          <td>
+
+
+            <select name="s1">
+
+
+              <option>Amritsar</option>
+              <option>Barnala</option>
+              <option>Bathinda</option>
+              <option>Faridkot</option>
+              <option>Fatehgarh</option>
+              <option>Ferozpur</option>
+              <option>Fazilka</option>
+              <option>Gurdaspur</option>
+              <option>Hoshiarpur</option>
+              <option>Jalandhar</option>
+              <option>Kapurthala</option>
+              <option>Ludhiana</option>
+              <option>Mansa</option>
+              <option>Moga</option>
+              <option>Shri Muktsar Sahib</option>
+              <option>Pathankot</option>
+              <option>Patiala</option>
+              <option>Rupnagar</option>
+              <option>Mohali</option>
+              <option>Sangrur</option>
+              <option>Nawanshahr</option>
+              <option>Tarn Taran</option>
+
+            </select>
+          </td>
+        </tr>
+        <tr>
+
+
+
+
+          <td><label for="">No. of Newborn Entries:</label><br></td>
+          <td><input type="number" name="taentries"></td>
+        </tr>
+        <tr>
+          <br>
+
+
+
+          <td><label>No. of Diagnosed:</label></td>
+          <td><input type="number" name="dignosed"></td>\
+        </tr>
+
+        <tr>
+          <td><label>Recommended:</label></td>
+
+          <td>
+            <input type="number" name="rec"></td>
+        </tr>
+        <tr>
+          <td><label>Deaths:</label></td>
+          <td><input type="number" name="Death"></td>
+        </tr>
+        <tr>
+          <td><label>Referred:</label></td>
+          <td><input type="number" name="ref"></td>
+        </tr>
+        <tr>
+          <td><label>LAMA:</label></td>
+          <td><input type="number" name="lama"></td>
+        </tr>
+        =
+
+      </table>
+      <br><br>
+      <input class="reset" type="reset" value="Reset" />
+      <input class="submit" type="submit" name="submit" onClick="f()">
+
+
+
+    </form>
+  </div>
+
+
+</body>
+
+</html>
